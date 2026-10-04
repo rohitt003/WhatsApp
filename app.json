@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Whatsapp",
+    "slug": "Whatsapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.jpg",
+    "scheme": "whatsapp",
+    "userInterfaceStyle": "automatic",
+
+    "ios": {
+      "icon": "./src/assets/images/icon.jpg"
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./src/assets/images/icon.jpg"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.Whatsapp"
+    },
+
+    "web": {
+      "output": "static",
+      "favicon": "./src/assets/images/icon.jpg"
+    },
+
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./src/assets/images/splash.jpg",
+          "imageWidth": 76
+        }
+      ]
+    ],
+
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
